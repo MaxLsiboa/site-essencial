@@ -35,8 +35,6 @@ jobs:
         with:
           source: ./
           destination: ./_site
-      - name: Rename index.html to start.html
-        run: mv _site/index.html _site/start.html
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
 
