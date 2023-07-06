@@ -32,7 +32,7 @@ url_dict = {
 
 @app.route('/index')
 def start():
-    return render_template('path/to/index.html', url_dict=url_dict, pix_code=pix_code)
+    return render_template('index.html', url_dict=url_dict, pix_code=pix_code)
 
 @app.route('/button/<selected_service>')
 def button(selected_service):
