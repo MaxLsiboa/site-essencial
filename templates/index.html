@@ -58,35 +58,47 @@
             margin-top: 20px;
             font-weight: bold;
         }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-weight: bold;
+            color: #333;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Bem-vindo ao Site serviços essenciais!</h1>
-        <li><a href="{{ url_dict['cpf'] }}" class="button">Pesquisa CPF</a></li>
-        <li><a href="{{ url_dict['gov_br'] }}" class="button">Acesso Gov.br</a></li>
-        <li><a href="{{ url_dict['obter'] }}" class="button">Obter sua carteira de Trabalho</a></li>
-        <li><a href="{{ url_dict['serasa'] }}" class="button">Consultar restrições em CPF/CNPJ</a></li>
-        <li><a href="{{ url_dict['fies'] }}" class="button">FIES aluno</a></li>
-        <li><a href="{{ url_dict['segunda_via_cpf'] }}" class="button">Segunda via CPF</a></li>
-        <li><a href="{{ url_dict['segunda_via_sus'] }}" class="button">Segunda via cartão SUS</a></li>
-        <li><a href="{{ url_dict['titulo_eleitor'] }}" class="button">Pesquisa Título de Eleitor</a></li>
-        <li><a href="{{ url_dict['cnpj'] }}" class="button">Pesquisa CNPJ</a></li>
-        <li><a href="{{ url_dict['das_mei'] }}" class="button">Emitir sua DAS do MEI aqui!</a></li>
-        <li><a href="{{ url_dict['certidao_criminal_federal'] }}" class="button">Certidão criminal Federal faça sua consulta</a></li>
-        <li><a href="{{ url_dict['certidao_criminal_eleitoral'] }}" class="button">Certidão criminal Eleitoral emitir</a></li>   
-        <li><a href="{{ url_dict['certidao_negativa_alistamento_eleitoral'] }}" class="button">Certidão Negativa de Alistamento faça sua emissão</a></li>
-        <li><a href="{{ url_dict['certidao_quitacao_eleitoral'] }}" class="button">Certidão de Quitação Eleitoral</a></li>
-        <li><a href="{{ url_dict['certidao_filiacao_partidaria'] }}" class="button">Certidão Filiação Partidária</a></li>
-        <li><a href="{{ url_dict['certificado_regularidade_fgts'] }}" class="button">Certificado de Regularidade do FGTS</a></li>
-        <li><a href="{{ url_dict['pis_pasep'] }}" class="button">Consulta de PIS ou PASEP</a></li>
-        <li><a href="{{ url_dict['bcb'] }}" class="button">Consulta de Valores a Receber site oficial aqui!</a></li>
-        <li><a href="{{ url_dict['eb'] }}" class="button">Alistamento online, faça agora!</a></li>
-        <li><a href="{{ url_dict['curso'] }}" class="button">Cursos pelo Governo Federal gratuitos com certificados validados e reconhecidos.</a></li>
-        <li><a href="{{ url_dict['pro'] }}" class="button">Inscrições SISU, PROUNI e FIES aqui!</a></li>
-        <li><a href="{{ url_dict['enem'] }}" class="button">Acesso ao ENEM completo aqui!</a></li>         
+        <ul>
+            <li><a href="{{ url_dict['cpf'] }}" class="button">Pesquisa CPF</a></li>
+            <li><a href="{{ url_dict['gov_br'] }}" class="button">Acesso Gov.br</a></li>
+            <li><a href="{{ url_dict['obter'] }}" class="button">Obter sua carteira de Trabalho</a></li>
+            <li><a href="{{ url_dict['serasa'] }}" class="button">Consultar restrições em CPF/CNPJ</a></li>
+            <li><a href="{{ url_dict['fies'] }}" class="button">FIES aluno</a></li>
+            <li><a href="{{ url_dict['segunda_via_cpf'] }}" class="button">Segunda via CPF</a></li>
+            <li><a href="{{ url_dict['segunda_via_sus'] }}" class="button">Segunda via cartão SUS</a></li>
+            <li><a href="{{ url_dict['titulo_eleitor'] }}" class="button">Pesquisa Título de Eleitor</a></li>
+            <li><a href="{{ url_dict['cnpj'] }}" class="button">Pesquisa CNPJ</a></li>
+            <li><a href="{{ url_dict['das_mei'] }}" class="button">Emitir sua DAS do MEI aqui!</a></li>
+            <li><a href="{{ url_dict['certidao_criminal_federal'] }}" class="button">Certidão criminal Federal faça sua consulta</a></li>
+            <li><a href="{{ url_dict['certidao_criminal_eleitoral'] }}" class="button">Certidão criminal Eleitoral emitir</a></li>   
+            <li><a href="{{ url_dict['certidao_negativa_alistamento_eleitoral'] }}" class="button">Certidão Negativa de Alistamento faça sua emissão</a></li>
+            <li><a href="{{ url_dict['certidao_quitacao_eleitoral'] }}" class="button">Certidão de Quitação Eleitoral</a></li>
+            <li><a href="{{ url_dict['certidao_filiacao_partidaria'] }}" class="button">Certidão Filiação Partidária</a></li>
+            <li><a href="{{ url_dict['certificado_regularidade_fgts'] }}" class="button">Certificado de Regularidade do FGTS</a></li>
+            <li><a href="{{ url_dict['pis_pasep'] }}" class="button">Consulta de PIS ou PASEP</a></li>
+            <li><a href="{{ url_dict['bcb'] }}" class="button">Consulta de Valores a Receber site oficial aqui!</a></li>
+            <li><a href="{{ url_dict['eb'] }}" class="button">Alistamento online, faça agora!</a></li>
+            <li><a href="{{ url_dict['curso'] }}" class="button">Cursos pelo Governo Federal gratuitos com certificados validados e reconhecidos.</a></li>
+            <li><a href="{{ url_dict['pro'] }}" class="button">Inscrições SISU, PROUNI e FIES aqui!</a></li>
+            <li><a href="{{ url_dict['enem'] }}" class="button">Acesso ao ENEM completo aqui!</a></li> 
+        </ul>
         <p class="donation">Doe para apoiar nosso site, qualquer valor nos ajuda a continuar com nosso projeto:</p>
         <p class="donation">PIX: {{ pix_code }}</p>
     </div>
+    <footer>
+        Desenvolvido por MTK-INFOR
+    </footer>
 </body>
 </html>
