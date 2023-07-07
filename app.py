@@ -30,7 +30,7 @@ url_dict = {
     'enem' : 'https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem',
 }
 
-@app.route('/index')
+@app.route('/')
 def start():
     return render_template('index.html', url_dict=url_dict, pix_code=PIX_CODE)
 
