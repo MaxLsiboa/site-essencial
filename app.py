@@ -22,7 +22,7 @@ url_dict = {
     'certidao_quitacao_eleitoral': 'https://www.tse.jus.br/servicos-eleitorais/certidoes/certidao-de-quitacao-eleitoral',
     'certidao_filiacao_partidaria': 'https://www.tse.jus.br/servicos-eleitorais/certidoes/certidao-de-filiacao-partidaria',
     'certificado_regularidade_fgts': 'https://www.fgts.gov.br/Pages/sou-empregador/certificado-de-regularidade-do-fgts-crf.aspx',
-    'pis_pasep': 'https://www.caixa.gov.br/beneficios-trabalhador/pis/Paginas/default.aspx',
+    'pis_pasep': 'https://www.gov.br/pt-br/servicos/receber-o-abono-salarial',
     'bcb' : 'https://www.bcb.gov.br/meubc/valores-a-receber',
     'eb' : 'https://alistamento.eb.mil.br/',
     'curso' : 'https://cadastro.escoladotrabalhador40.com.br/',
